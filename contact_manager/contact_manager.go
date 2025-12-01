@@ -20,18 +20,18 @@ type Contact struct {
 func main() {
 
 	// Add a contact
-	addContact(Contact{1, "David", "Hunnicutt", "ACME Corp", "123-456-7890", "david@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
-	addContact(Contact{2, "Sarah", "Smith", "Tech Ltd", "333-888-2222", "sarah@email.com"})
+	addContact(Contact{1, "Ramiz", "Abdulla", "Initech", "123-456-7890", "RA@email.com"})
+	addContact(Contact{2, "Theon", "Beckford", "Stark Industries", "333-888-2222", "TB@email.com"})
+	addContact(Contact{2, "Alanna", "Carton", "Wayne Enterprises", "333-888-2222", "AC@email.com"})
+	addContact(Contact{2, "Liz", "Coles", "Monsters, Inc.", "333-888-2222", "LC@email.com"})
+	addContact(Contact{2, "Joe", "Haslam", "Genco Olive Oil Company", "333-888-2222", "JH@email.com"})
+	addContact(Contact{2, "Azizfatima", "Hussain", "Cyberdyne Systems", "333-888-2222", "AH@email.com"})
+	addContact(Contact{2, "Kiran", "Mamidala", "Apex Dynamix", "333-888-2222", "KM@email.com"})
+	addContact(Contact{2, "Nikhitha", "Naik", "Tyrell Corporation", "333-888-2222", "NN@email.com"})
+	addContact(Contact{2, "Nicole", "Samuels", "Dunder Mifflin", "333-888-2222", "NS@email.com"})
+	addContact(Contact{2, "Uzaer", "Shahid", "Hooli", "333-888-2222", "US@email.com"})
+	addContact(Contact{2, "Ellis", "Stonehouse", "Umbrella Corporation", "333-888-2222", "ES@email.com"})
+	addContact(Contact{2, "Charlie", "Wilson", "Sterling Cooper", "333-888-2222", "CW@email.com"})
 
 	// List all contacts
 	fmt.Println("\n--- All Contacts ---")
