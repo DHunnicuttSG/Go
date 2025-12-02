@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "first_name": "Ramiz",
+    "last_name": "Abdulla",
+    "company": "Initech",
+    "phone": "123-456-7890",
+    "email": "RA@email.com"
+  },
+  {
+    "id": 2,
+    "first_name": "Theon",
+    "last_name": "Beckford",
+    "company": "Stark Industries",
+    "phone": "333-888-2222",
+    "email": "TB@email.com"
+  },
+  {
+    "id": 3,
+    "first_name": "Alanna",
+    "last_name": "Carton",
+    "company": "Wayne Enterprises",
+    "phone": "555-1234",
+    "email": "AC@email.com"
+  },
+  {
+    "id": 4,
+    "first_name": "Liz",
+    "last_name": "Coles",
+    "company": "Monsters, Inc.",
+    "phone": "333-888-2222",
+    "email": "LC@email.com"
+  },
+  {
+    "id": 5,
+    "first_name": "Joe",
+    "last_name": "Haslam",
+    "company": "Genco Olive Oil Company",
+    "phone": "333-888-2222",
+    "email": "JH@email.com"
+  },
+  {
+    "id": 6,
+    "first_name": "Azizfatima",
+    "last_name": "Hussain",
+    "company": "Cyberdyne Systems",
+    "phone": "333-888-2222",
+    "email": "AH@email.com"
+  },
+  {
+    "id": 7,
+    "first_name": "Kiran",
+    "last_name": "Mamidala",
+    "company": "Apex Dynamix",
+    "phone": "333-888-2222",
+    "email": "KM@email.com"
+  },
+  {
+    "id": 8,
+    "first_name": "Nikhitha",
+    "last_name": "Naik",
+    "company": "Tyrell Corporation",
+    "phone": "333-888-2222",
+    "email": "NN@email.com"
+  },
+  {
+    "id": 9,
+    "first_name": "Nicole",
+    "last_name": "Samuels",
+    "company": "Dunder Mifflin",
+    "phone": "333-888-2222",
+    "email": "NS@email.com"
+  },
+  {
+    "id": 10,
+    "first_name": "Uzaer",
+    "last_name": "Shahid",
+    "company": "Hooli",
+    "phone": "333-888-2222",
+    "email": "US@email.com"
+  },
+  {
+    "id": 11,
+    "first_name": "Ellis",
+    "last_name": "Stonehouse",
+    "company": "Umbrella Corporation",
+    "phone": "333-888-2222",
+    "email": "ES@email.com"
+  },
+  {
+    "id": 12,
+    "first_name": "Charlie",
+    "last_name": "Wilson",
+    "company": "Sterling Cooper",
+    "phone": "333-888-2222",
+    "email": "CW@email.com"
+  }
+]
