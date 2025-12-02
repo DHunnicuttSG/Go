@@ -22,18 +22,18 @@ type Contact struct {
 func main() {
 
 	// Add a contact
-	addContact(Contact{1, "Ramiz", "Abdulla", "Initech", "123-456-7890", "RA@email.com"})
-	addContact(Contact{2, "Theon", "Beckford", "Stark Industries", "333-888-2222", "TB@email.com"})
-	addContact(Contact{3, "Alanna", "Carton", "Wayne Enterprises", "333-888-2222", "AC@email.com"})
-	addContact(Contact{4, "Liz", "Coles", "Monsters, Inc.", "333-888-2222", "LC@email.com"})
-	addContact(Contact{5, "Joe", "Haslam", "Genco Olive Oil Company", "333-888-2222", "JH@email.com"})
-	addContact(Contact{6, "Azizfatima", "Hussain", "Cyberdyne Systems", "333-888-2222", "AH@email.com"})
-	addContact(Contact{7, "Kiran", "Mamidala", "Apex Dynamix", "333-888-2222", "KM@email.com"})
-	addContact(Contact{8, "Nikhitha", "Naik", "Tyrell Corporation", "333-888-2222", "NN@email.com"})
-	addContact(Contact{9, "Nicole", "Samuels", "Dunder Mifflin", "333-888-2222", "NS@email.com"})
-	addContact(Contact{10, "Uzaer", "Shahid", "Hooli", "333-888-2222", "US@email.com"})
-	addContact(Contact{11, "Ellis", "Stonehouse", "Umbrella Corporation", "333-888-2222", "ES@email.com"})
-	addContact(Contact{12, "Charlie", "Wilson", "Sterling Cooper", "333-888-2222", "CW@email.com"})
+	addContact(Contact{1, "Ramiz", "Abdulla", "Initech", "123-456-7890", "RA@email.com"})                  // Office Space
+	addContact(Contact{2, "Theon", "Beckford", "Stark Industries", "333-888-2222", "TB@email.com"})        // Iron man
+	addContact(Contact{3, "Alanna", "Carton", "Wayne Enterprises", "333-888-2222", "AC@email.com"})        // Batman
+	addContact(Contact{4, "Liz", "Coles", "Monsters, Inc.", "333-888-2222", "LC@email.com"})               // Monster's Inc.
+	addContact(Contact{5, "Joe", "Haslam", "Genco Olive Oil Company", "333-888-2222", "JH@email.com"})     // Godfather
+	addContact(Contact{6, "Azizfatima", "Hussain", "Cyberdyne Systems", "333-888-2222", "AH@email.com"})   // Terminator
+	addContact(Contact{7, "Kiran", "Mamidala", "Apex Dynamix", "333-888-2222", "KM@email.com"})            // Company from video games
+	addContact(Contact{8, "Nikhitha", "Naik", "Tyrell Corporation", "333-888-2222", "NN@email.com"})       // Blade Runner
+	addContact(Contact{9, "Nicole", "Samuels", "Dunder Mifflin", "333-888-2222", "NS@email.com"})          // The Office
+	addContact(Contact{10, "Uzaer", "Shahid", "Hooli", "333-888-2222", "US@email.com"})                    // Silicon Valley
+	addContact(Contact{11, "Ellis", "Stonehouse", "Umbrella Corporation", "333-888-2222", "ES@email.com"}) // Resident Evil games
+	addContact(Contact{12, "Charlie", "Wilson", "Sterling Cooper", "333-888-2222", "CW@email.com"})        // Mad men series
 
 	for {
 		fmt.Println("\n===== CONTACT MANAGER =====")
@@ -227,4 +227,3 @@ func printContacts(contacts []Contact) {
 			c.Company, c.Phone, c.Email)
 	}
 }
-
