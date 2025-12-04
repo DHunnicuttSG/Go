@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("File IO")
 
-	data := []byte("Hello Go")
+	data := []byte("Hello Go!")
 
 	// Print out the ASCII code written to file
 	for i, b := range data {

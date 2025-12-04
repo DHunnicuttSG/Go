@@ -28,8 +28,8 @@ func getValidAge(reader *bufio.Reader) int {
 }
 
 func main() {
-	var name string
-	var age int
+	// var name string
+	// var age int
 	reader := bufio.NewReader(os.Stdin)
 
 	// fmt.Print("Enter your name: ")
@@ -38,8 +38,8 @@ func main() {
 	// fmt.Print("Enter your age: ")
 	// fmt.Scanln(&age)
 
-	name = getInput("Enter your name: ", reader)
-	age = getValidAge(reader)
+	name := getInput("Enter your name: ", reader)
+	age := getValidAge(reader)
 
 	fmt.Println("\n---- User Info ----")
 	fmt.Printf("Name: %s\n", name)

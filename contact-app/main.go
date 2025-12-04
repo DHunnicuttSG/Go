@@ -15,7 +15,7 @@ type Contact struct {
 
 type JContact struct {
 	ID    int    `json:"id"`
-	Name  string `json:"name"`
+	Name  string `json:"NAME"`
 	Email string `json:"email"`
 }
 
@@ -51,6 +51,7 @@ func main() {
 
 	var c2 JContact
 	json.Unmarshal([]byte(jsonData), &c2)
+	fmt.Println(c2)
 	fmt.Println(c2.Name)
 
 }
