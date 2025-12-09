@@ -83,7 +83,12 @@ go run main.go
 Build it:
 
 ```bash
-go build
+go build main.go
+```
+* Creates a main.exe file
+
+Run it:
+```bash
 ./main
 ```
 
