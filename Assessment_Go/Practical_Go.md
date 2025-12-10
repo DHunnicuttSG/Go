@@ -56,6 +56,7 @@ func countWords(s string) map[string]int {
 
 }
 
+// Do not change the code in the main function  
 func main() {
 	s := "go is fun and go is fast"
 	fmt.Println(countWords(s))
