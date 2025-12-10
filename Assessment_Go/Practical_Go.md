@@ -1,3 +1,5 @@
+## I would like to have these done by Friday December 12.  Thanks.
+
 # Question 1
 
 Create a function called swap to swap the values of two integers using pointers
