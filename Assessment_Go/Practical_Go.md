@@ -39,7 +39,7 @@ import "fmt"
 // Do not change the code in the main function  
 func main() {  
     rect := Rectangle{Width: 10, Height: 5}   
-    fmt.Println("Area:", rect.Area)  
+    fmt.Println("Area:", rect.Area())  
     
 }
 ```
